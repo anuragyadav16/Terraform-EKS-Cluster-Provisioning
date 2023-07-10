@@ -25,7 +25,7 @@ This guide provides instructions on how to provision an AWS EKS Cluster using Te
 
 - AWS Account
 - AWS CLI installed and configured with your AWS Account
-- Terraform (Version 0.12 or higher)
+- Terraform (Version 1.5.0 or higher)
 
 
 ## Cloning the Repository
@@ -40,6 +40,30 @@ Navigate to the cloned repository. You'll find Terraform files that describe the
 
 ## Provisioning the Infrastructure
 To provision the EKS Cluster, follow the steps below:
+
+## 1. Create shared environment
+
+Creates a symbolic link (shortcut) to the terraform.tfvars file from the Terraform-EKS-Cluster-Provisioning directory into the environment directory. This allows the terraform.tfvars file to be easily accessible and used within the environment directory for the Terraform configuration. Later Navigate to environment folder and execute terraform commands.
+
+```bash
+ln -s ~/Terraform-EKS-Cluster-Provisioning/terraform.tfvars ~/Terraform-EKS-Cluster-Provisioning/environment/terraform.tfvars
+```
+
+```bash
+cd environment/
+```
+
+```bash
+terraform init
+```
+
+```bash
+terraform plan
+```
+
+```bash
+terraform apply -auto-approve
+```
 
 ## Contributing
 Contributions, issues and feature requests are welcome!
