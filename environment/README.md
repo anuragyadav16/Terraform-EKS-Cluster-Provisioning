@@ -13,23 +13,23 @@ This section outlines the steps to create a shared environment using Terraform. 
 
 ### 1. Define the versions of Terraform and providers
     
-    These provider requirements mentioned in versions.tf ensure that the correct versions are used when running Terraform commands for this project.
+These provider requirements mentioned in versions.tf ensure that the correct versions are used when running Terraform commands for this project.
 
 ### 2. Define the variables for your Terraform stack
     
-    These include the environment name, AWS region, VPC CIDR, and a suffix for creating a secret for ArgoCD for later stage.
+These include the environment name, AWS region, VPC CIDR, and a suffix for creating a secret for ArgoCD for later stage.
 
 ### 3. Create the main configuration file main.tf for your Terraform project
     
-   This Terraform code configures the AWS provider, retrieves availability zones, creates local variables, provisions a VPC with subnets using the AWS VPC Terraform module, and includes additional resource configurations like an AWS Secret Manager secret for ArgoCD deployment.
+This Terraform code configures the AWS provider, retrieves availability zones, creates local variables, provisions a VPC with subnets using the AWS VPC Terraform module, and includes additional resource configurations like an AWS Secret Manager secret for ArgoCD deployment.
 
 ### 4.Create outputs.tf file:
 
-    The outputs.tf file contains the definitions of outputs that provide information about the provisioned VPC. These outputs can be used to retrieve important details about the provisioned infrastructure.
+The outputs.tf file contains the definitions of outputs that provide information about the provisioned VPC. These outputs can be used to retrieve important details about the provisioned infrastructure.
 
 ### 5.Provide variables
 
-    Use a variables file to provide specific deployment data to your Terraform modules
+Use a variables file to provide specific deployment data to your Terraform modules
 
 
 

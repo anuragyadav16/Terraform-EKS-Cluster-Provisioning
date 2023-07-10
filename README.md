@@ -49,18 +49,22 @@ Creates a symbolic link (shortcut) to the terraform.tfvars file from the Terrafo
 ln -s ~/Terraform-EKS-Cluster-Provisioning/terraform.tfvars ~/Terraform-EKS-Cluster-Provisioning/environment/terraform.tfvars
 ```
 
+Change working directory to appropriate location:
 ```bash
 cd environment/
 ```
 
+Prepare Terraform working directory:
 ```bash
 terraform init
 ```
 
+Simulate infrastructure changes:
 ```bash
 terraform plan
 ```
 
+Apply changes to infrastructure resources:
 ```bash
 terraform apply -auto-approve
 ```
