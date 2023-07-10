@@ -5,20 +5,20 @@ This guide provides instructions on how to provision an AWS EKS Cluster using Te
 
 ## Key Features of the Blueprint
 
-#### - Security and Compliance
-        The blueprints come with baked-in security best practices, reducing the need for manual ad-hoc security configurations.
+- #### Security and Compliance
+The blueprints come with baked-in security best practices, reducing the need for manual ad-hoc security configurations.
 
-#### - Cost Management
-        The deployment strategy and resources used in the blueprints are optimized for cost.
+- #### Cost Management
+The deployment strategy and resources used in the blueprints are optimized for cost.
 
-#### - Deployment Automation
-        Manual deployment processes are replaced with automated pipelines. Software delivery is now faster and more consistent.
+- #### Deployment Automation
+Manual deployment processes are replaced with automated pipelines. Software delivery is now faster and more consistent.
 
-#### - Infrastructure Provisioning
-        With these blueprints, infrastructure can be provisioned on-demand, reducing the waiting time from weeks to mere minutes.
+- #### Infrastructure Provisioning
+With these blueprints, infrastructure can be provisioned on-demand, reducing the waiting time from weeks to mere minutes.
 
-#### - Telemetry
-        The blueprints allow for full instrumentation of applications for metric and log collection. This results in increased visibility into applications running in production.
+- #### Telemetry
+The blueprints allow for full instrumentation of applications for metric and log collection. This results in increased visibility into applications running in production.
 
 
 ## Pre-requisites
@@ -29,14 +29,20 @@ This guide provides instructions on how to provision an AWS EKS Cluster using Te
 
 
 ## Cloning the Repository
-To get started, clone the repository with the EKS Terraform Blueprints. Replace <repository_url> with the URL of the blueprint repository:
+To get started, clone the repository with the EKS Terraform Blueprints :
 
 ```bash
-git clone <repository_url>
+git clone https://github.com/anuragyadav16/Terraform-EKS-Cluster-Provisioning.git
 ```
 
-Setting Up
+## Setting Up
 Navigate to the cloned repository. You'll find Terraform files that describe the EKS cluster's infrastructure. Customize these files as per your organization's needs.
 
-Provisioning the Infrastructure
+## Provisioning the Infrastructure
 To provision the EKS Cluster, follow the steps below:
+
+## Contributing
+Contributions, issues and feature requests are welcome!
+
+## License
+Distributed under the MIT License. See LICENSE for more information.
