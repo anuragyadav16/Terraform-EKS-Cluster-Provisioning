@@ -35,32 +35,6 @@ Use a variables file to provide specific deployment data to your Terraform modul
 ![Alt text](https://drive.google.com/uc?export=view&id=1DsVUDfF6bHQzPTZP9e05uGIF00fIMNte)
 
 
-<details>
-  <summary>Click to expand!</summary>
-
-  jgjgjhk
-  blah
-  blaah
-
-</details>
-
-
-
-
-
-## Cloning the Repository
-To get started, clone the repository with the EKS Terraform Blueprints :
-
-```bash
-git clone https://github.com/anuragyadav16/Terraform-EKS-Cluster-Provisioning.git
-```
-
-## Setting Up
-Navigate to the cloned repository. You'll find Terraform files that describe the EKS cluster's infrastructure. Customize these files as per your organization's needs.
-
-## Provisioning the Infrastructure
-To provision the EKS Cluster, follow the steps below:
-
 ## Contributing
 Contributions, issues and feature requests are welcome!
 
