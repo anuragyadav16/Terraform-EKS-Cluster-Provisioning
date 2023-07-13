@@ -62,38 +62,41 @@ terraform init
 <details>
   <summary>Terraform Output (Click to Expand)</summary>
 
-(base) anuragyadav@Anurags-MBP environment % terraform init
+  ```bash
 
-Initializing the backend...
-Initializing modules...
-Downloading registry.terraform.io/terraform-aws-modules/vpc/aws 5.0.0 for vpc...
-- vpc in .terraform/modules/vpc
+    (base) anuragyadav@Anurags-MBP environment % terraform init
 
-Initializing provider plugins...
-- Finding hashicorp/aws versions matching ">= 5.0.0, ~> 5.7"...
-- Finding hashicorp/random versions matching "~> 3.5"...
-- Installing hashicorp/aws v5.7.0...
-- Installed hashicorp/aws v5.7.0 (signed by HashiCorp)
-- Installing hashicorp/random v3.5.1...
-- Installed hashicorp/random v3.5.1 (signed by HashiCorp)
+    Initializing the backend...
+    Initializing modules...
+    Downloading registry.terraform.io/terraform-aws-modules/vpc/aws 5.0.0 for vpc...
+    - vpc in .terraform/modules/vpc
 
-Terraform has created a lock file .terraform.lock.hcl to record the provider
-selections it made above. Include this file in your version control repository
-so that Terraform can guarantee to make the same selections by default when
-you run "terraform init" in the future.
+    Initializing provider plugins...
+    - Finding hashicorp/aws versions matching ">= 5.0.0, ~> 5.7"...
+    - Finding hashicorp/random versions matching "~> 3.5"...
+    - Installing hashicorp/aws v5.7.0...
+    - Installed hashicorp/aws v5.7.0 (signed by HashiCorp)
+    - Installing hashicorp/random v3.5.1...
+    - Installed hashicorp/random v3.5.1 (signed by HashiCorp)
 
-Terraform has been successfully initialized!
+    Terraform has created a lock file .terraform.lock.hcl to record the provider
+    selections it made above. Include this file in your version control repository
+    so that Terraform can guarantee to make the same selections by default when
+    you run "terraform init" in the future.
 
-You may now begin working with Terraform. Try running "terraform plan" to see
-any changes that are required for your infrastructure. All Terraform commands
-should now work.
+    Terraform has been successfully initialized!
 
-If you ever set or change modules or backend configuration for Terraform,
-rerun this command to reinitialize your working directory. If you forget, other
-commands will detect it and remind you to do so if necessary.
-(base) anuragyadav@Anurags-MBP environment %
+    You may now begin working with Terraform. Try running "terraform plan" to see
+    any changes that are required for your infrastructure. All Terraform commands
+    should now work.
+
+    If you ever set or change modules or backend configuration for Terraform,
+    rerun this command to reinitialize your working directory. If you forget, other
+    commands will detect it and remind you to do so if necessary.
+    (base) anuragyadav@Anurags-MBP environment %
 
 </details>
+```
 
 Simulate infrastructure changes:
 ```bash
