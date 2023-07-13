@@ -62,41 +62,42 @@ terraform init
 <details>
   <summary>Terraform Output (Click to Expand)</summary>
 
-  ```bash
+```bash
 
-    (base) anuragyadav@Anurags-MBP environment % terraform init
+(base) anuragyadav@Anurags-MBP environment % terraform init
 
-    Initializing the backend...
-    Initializing modules...
-    Downloading registry.terraform.io/terraform-aws-modules/vpc/aws 5.0.0 for vpc...
-    - vpc in .terraform/modules/vpc
+Initializing the backend...
+Initializing modules...
+Downloading registry.terraform.io/terraform-aws-modules/vpc/aws 5.0.0 for vpc...
+- vpc in .terraform/modules/vpc
 
-    Initializing provider plugins...
-    - Finding hashicorp/aws versions matching ">= 5.0.0, ~> 5.7"...
-    - Finding hashicorp/random versions matching "~> 3.5"...
-    - Installing hashicorp/aws v5.7.0...
-    - Installed hashicorp/aws v5.7.0 (signed by HashiCorp)
-    - Installing hashicorp/random v3.5.1...
-    - Installed hashicorp/random v3.5.1 (signed by HashiCorp)
+Initializing provider plugins...
+- Finding hashicorp/aws versions matching ">= 5.0.0, ~> 5.7"...
+- Finding hashicorp/random versions matching "~> 3.5"...
+- Installing hashicorp/aws v5.7.0...
+- Installed hashicorp/aws v5.7.0 (signed by HashiCorp)
+- Installing hashicorp/random v3.5.1...
+- Installed hashicorp/random v3.5.1 (signed by HashiCorp)
 
-    Terraform has created a lock file .terraform.lock.hcl to record the provider
-    selections it made above. Include this file in your version control repository
-    so that Terraform can guarantee to make the same selections by default when
-    you run "terraform init" in the future.
+Terraform has created a lock file .terraform.lock.hcl to record the provider
+selections it made above. Include this file in your version control repository
+so that Terraform can guarantee to make the same selections by default when
+you run "terraform init" in the future.
 
-    Terraform has been successfully initialized!
+Terraform has been successfully initialized!
 
-    You may now begin working with Terraform. Try running "terraform plan" to see
-    any changes that are required for your infrastructure. All Terraform commands
-    should now work.
+You may now begin working with Terraform. Try running "terraform plan" to see
+any changes that are required for your infrastructure. All Terraform commands
+should now work.
 
-    If you ever set or change modules or backend configuration for Terraform,
-    rerun this command to reinitialize your working directory. If you forget, other
-    commands will detect it and remind you to do so if necessary.
-    (base) anuragyadav@Anurags-MBP environment %
+If you ever set or change modules or backend configuration for Terraform,
+rerun this command to reinitialize your working directory. If you forget, other
+commands will detect it and remind you to do so if necessary.
+(base) anuragyadav@Anurags-MBP environment %
 
-</details>
 ```
+</details>
+
 
 Simulate infrastructure changes:
 ```bash
@@ -105,6 +106,8 @@ terraform plan
 
 <details>
   <summary>Terraform Output (Click to Expand)</summary>
+
+```bash
 
 (base) anuragyadav@Anurags-MBP environment % terraform plan
 data.aws_availability_zones.available: Reading...
@@ -667,7 +670,7 @@ Changes to Outputs:
 
 Note: You didn't use the -out option to save this plan, so Terraform can't guarantee to take exactly these actions if you run "terraform apply" now.
 (base) anuragyadav@Anurags-MBP environment %
-
+```
 </details>
 
 
@@ -679,6 +682,7 @@ terraform apply -auto-approve
 <details>
   <summary>Terraform Output (Click to Expand)</summary>
 
+```bash
 (base) anuragyadav@Anurags-MBP environment % terraform apply -auto-approve
 data.aws_availability_zones.available: Reading...
 data.aws_availability_zones.available: Read complete after 0s [id=us-east-1]
@@ -1307,7 +1311,7 @@ Outputs:
 
 vpc_id = "vpc-00fe7f8b8b6a53690"
 (base) anuragyadav@Anurags-MBP environment %
-
+```
 <details>
 
 ## Contributing
