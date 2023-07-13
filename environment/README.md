@@ -35,6 +35,8 @@ Use a variables file to provide specific deployment data to your Terraform modul
 ![Alt text](https://drive.google.com/uc?export=view&id=1DsVUDfF6bHQzPTZP9e05uGIF00fIMNte)
 
 
+![Alt text](https://drive.google.com/uc?export=view&id=1oxytls-QW9fTHANw5JfVJA87wuSyFMqR)
+
 ## Contributing
 Contributions, issues and feature requests are welcome!
 

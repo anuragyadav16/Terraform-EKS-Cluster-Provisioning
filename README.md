@@ -1312,7 +1312,8 @@ Outputs:
 vpc_id = "vpc-00fe7f8b8b6a53690"
 (base) anuragyadav@Anurags-MBP environment %
 ```
-<details>
+
+</details>
 
 ## Contributing
 Contributions, issues and feature requests are welcome!
