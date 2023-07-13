@@ -32,7 +32,7 @@ The outputs.tf file contains the definitions of outputs that provide information
 Use a variables file to provide specific deployment data to your Terraform modules
 
 
-<img src="https://drive.google.com/file/d/1DsVUDfF6bHQzPTZP9e05uGIF00fIMNte/view?usp=sharing" width="100" height="100">
+<img src="https://drive.google.com/file/d/1DsVUDfF6bHQzPTZP9e05uGIF00fIMNte" width="100" height="100">
 
 
 
